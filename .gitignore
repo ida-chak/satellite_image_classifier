@@ -162,14 +162,11 @@ cython_debug/
 #.idea/
 
 # Data files (avoid tracking large datasets)
-data/
 data/raw/
 data/interim/
 data/processed/
 
 # Models and outputs
-models/
-output/
 output/logs/
 output/figures/
 *.h5
@@ -178,7 +175,6 @@ output/figures/
 *.onnx
 
 # Logs and temp files
-logs/
 *.log
 *.tmp
 *.swp
